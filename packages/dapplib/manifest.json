@@ -1,0 +1,46 @@
+{
+    "repository": {},
+    "__outputFolder": null,
+    "blocks": [
+        {
+            "category": "access_control",
+            "name": "core-administrator_role",
+            "parameters": {}
+        },
+        {
+            "category": "access_control",
+            "name": "core-contract_access",
+            "parameters": {}
+        },
+        {
+            "category": "access_control",
+            "name": "core-contract_runstate",
+            "parameters": {}
+        },
+        {
+            "category": "asset_value_tracking",
+            "name": "core-token",
+            "parameters": {
+                "name": "polymer",
+                "symbol": "poly",
+                "decimals": "18",
+                "supply": "98000000000"
+            }
+        },
+        {
+            "category": "file_storage",
+            "name": "core-ipfs",
+            "parameters": {
+                "mode": "folder"
+            }
+        },
+        {
+            "category": "collection",
+            "name": "core-entity",
+            "parameters": {}
+        }
+    ],
+    "blockchain": "polygon",
+    "language": "solidity",
+    "framework": "vanilla"
+}
